@@ -32,6 +32,11 @@ npm install
 pkg install python ffmpeg
 pip install -U yt-dlp
 ```
+### 4. Pastikan juga termux mendapatkan izin penyimpanan
+
+```bash
+termux-setup-storage
+```
 
 #### Windows (PowerShell):
 ```powershell
