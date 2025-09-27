@@ -17,7 +17,7 @@ Didesain agar mudah dipakai di **Termux** ataupun **Linux/Windows** dengan Node.
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/username/yt-downloader-termux.git
+git clone https://github.com/devalmuz/Youtube-dl/tree/main
 cd yt-downloader-termux
 ```
 
