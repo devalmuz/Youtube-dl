@@ -15,24 +15,29 @@ Didesain agar mudah dipakai di **Termux** ataupun **Linux/Windows** dengan Node.
 
 ## 📦 Instalasi
 
-### 1. Clone repo
+### 1. Install git
 ```bash
-git clone https://github.com/devalmuz/Youtube-dl/tree/main
-cd yt-downloader-termux
+pkg install git
 ```
 
-### 2. Install dependensi
+### 2. Clone repo
+```bash
+git clone https://github.com/devalmuz/Youtube-dl
+cd Youtube-dl
+```
+
+### 3. Install dependensi
 ```bash
 npm install
 ```
 
-### 3. Pastikan `yt-dlp` sudah terpasang
+### 4. Pastikan `yt-dlp` sudah terpasang
 #### Termux / Linux:
 ```bash
 pkg install python ffmpeg
 pip install -U yt-dlp
 ```
-### 4. Pastikan juga termux mendapatkan izin penyimpanan
+### 5. Pastikan juga termux mendapatkan izin penyimpanan
 
 ```bash
 termux-setup-storage
@@ -74,4 +79,4 @@ yt-downloader-termux/
 ---
 
 ## ⚖️ Lisensi
-MIT License © 2025 [Rikaz Muzani](https://github.com/username)
+MIT License © 2025 [Rikaz Muzani](https://github.com/devalmuz)
